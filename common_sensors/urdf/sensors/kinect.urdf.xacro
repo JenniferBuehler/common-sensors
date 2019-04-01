@@ -4,7 +4,7 @@
   <xacro:include filename="$(find common_sensors)/urdf/sensors/kinect_properties.urdf.xacro"/>
 
   <!-- camera_name has to be unique! -->
-  <xacro:kinect_sensor link_name="camera_depth_frame" camera_name="camera1"
+  <xacro:kinect_sensor link_name="camera_depth_frame" camera_name="camera"
                        frame_name="camera_depth_optical_frame"/>
 
 	<!-- Parameterised in part by the values in kinect_properties.urdf.xacro -->
